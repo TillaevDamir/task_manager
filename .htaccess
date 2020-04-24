@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /task_manager
+
+RewriteRule ^(.*)/?$ index.php [L]
